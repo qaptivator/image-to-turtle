@@ -1,5 +1,5 @@
 
-def goto_setpos_type(lines, turtle_name='t'):
+def setpos_type(lines, turtle_name='t'):
   # turtle_name is name of variable which stores your turtle. by default it will be 't'
   sequence = []
   for points in lines:

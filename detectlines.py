@@ -38,6 +38,7 @@ def detect_lines(image):
   lines = hough_lines(edges)
   return lines
 def draw_lines(image, lines, image_name='detectedLines.png'):
+  # image_name is name of output image
   for points in lines:
     # extracted points nested in the list
     x1, y1, x2, y2 = points[0]
